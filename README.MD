@@ -82,16 +82,13 @@ The following IAM policy allows the Lambda function to publish to a specific SNS
 }
 ```
 
-## Example Output
+## Example Email
 
 The Lambda function sends messages like this to the SNS topic:
 
-```
-Subject: Currency Exchange Rate Update
-Message:
-Currency Exchange Rate Update for PHP:
-Exchange Rate: 55.23
-```
+![Example Email](example_email/PHP.png)
+![Example Email](example_email/CAD.png)
+![Example Email](example_email/SGD.png)
 
 ## Troubleshooting
 
