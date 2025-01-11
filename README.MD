@@ -71,14 +71,14 @@ The following IAM policy allows the Lambda function to publish to a specific SNS
 
 ```json
 {
-     "Version": "2012-10-17",
-     "Statement": [
-          {
-                "Effect": "Allow",
-                "Action": "sns:Publish",
-                "Resource": "arn:aws:sns:ap-northeast-1:039817790672:currency_exchange:b2de634a-0b36-493b-adbd-8b95fb41ab25"
-          }
-     ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "sns:Publish",
+            "Resource": "arn:aws:sns:REGION:ACCOUNT_ID:gd_topic"
+        }
+    ]
 }
 ```
 
